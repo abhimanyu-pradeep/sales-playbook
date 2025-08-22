@@ -49,7 +49,7 @@ function buildSidebar(playbook) {
 function buildContent(playbook) {
   const content = document.querySelector(".content");
   content.innerHTML = `
-    <h1>Happilee Sales Playbook</h1>
+    <h1 id="top" >Happilee Sales Playbook</h1>
     <p>This playbook is your guide to handling sales conversations across different industries and use cases. </p>
     <p>Use the sidebar to select a vertical, then choose the customer’s possbile need or intent.</p>
     <p>The main panel will show you the recommended use cases and plays you can pitch.</p>
