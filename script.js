@@ -56,31 +56,42 @@ function buildContent(playbook) {
   `;
 
   playbook.forEach((vertical, vIndex) => {
-    let verticalId = `vertical-${vIndex}`;
-    content.innerHTML += `<h3 id="${verticalId}" class="mt-4">${vertical.vertical}</h3>`;
-    vertical.horizontals.forEach((h, hIndex) => {
-      let horizontalId = `${verticalId}-${hIndex}`;
-      content.innerHTML += `<h5 id="${horizontalId}" class="mt-3">${h.name}</h5>`;
-      // Create intent grid container
-      let gridHTML = '<div class="intent-grid">';
-      h.intents.forEach(intent => {
-        // Clean intent string: remove quotes and square brackets
-        let cleanIntent = intent
-          .replace(/^\[+|\]+$/g, '') // Remove leading/trailing brackets
-          .replace(/['"\[\]]/g, '') // Remove quotes and brackets
-          .trim();
-        cleanIntent = cleanIntent.charAt(0).toUpperCase() + cleanIntent.slice(1); // Capitalize first letter
-        gridHTML += `
-          <div>
-            <div class="card intent-card h-100" style="min-height:120px;">
-              <div class="card-body">
-                ${cleanIntent}
-              </div>
+  let verticalId = `vertical-${vIndex}`;
+  content.innerHTML += `<h3 id="${verticalId}" class="mt-4">${vertical.vertical}</h3>`;
+
+  vertical.horizontals.forEach((h, hIndex) => {
+    let horizontalId = `${verticalId}-${hIndex}`;
+    content.innerHTML += `<h5 id="${horizontalId}" class="mt-3">${h.name}</h5>`;
+
+    // Deduplicate intents
+    let uniqueIntents = [...new Set(h.intents.map(intent => {
+      // Normalize for duplicates: clean + lowercase
+      return intent
+        .replace(/^\[+|\]+$/g, '')   // remove brackets
+        .replace(/['"\[\]]/g, '')   // remove quotes
+        .trim()
+        .toLowerCase();             // lowercase for uniqueness
+    }))];
+
+    // Create intent grid container
+    let gridHTML = '<div class="intent-grid">';
+
+    uniqueIntents.forEach(rawIntent => {
+      // Capitalize first letter again
+      let cleanIntent = rawIntent.charAt(0).toUpperCase() + rawIntent.slice(1);
+
+      gridHTML += `
+        <div>
+          <div class="card intent-card h-100" style="min-height:120px;">
+            <div class="card-body">
+              ${cleanIntent}
             </div>
-          </div>`;
-      });
-      gridHTML += '</div>';
-      content.innerHTML += gridHTML;
+          </div>
+        </div>`;
     });
+
+    gridHTML += '</div>';
+    content.innerHTML += gridHTML;
   });
+});
 }
