@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sales Playbook</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body { margin: 0; font-family: Arial, sans-serif; display: flex; height: 100vh; }
+    .content { flex: 1; padding: 1.5rem; overflow-y: auto; background: #ecf0f1; }
+    .content h1, .content h3, .content h5 {
+      color: #050716;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .intent-card { background: white; padding: 10px; border-radius: 8px; margin: 5px; 
+                   box-shadow: 0 2px 4px rgba(13, 25, 133, 0.1); }
+    .intent-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.intent-card:hover {
+  transform: translateY(-3px);
+}
+    .intent-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: start;
+      width: 100%;
+      max-width: 1100px;
+      margin-bottom: 2rem;
+    }
+    .intent-grid > div {
+      min-width: 0;
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h5 class="mb-3">Industries</h5>
+    <div id="verticalAccordion" class="accordion"></div>
+  </div>
+
+  <img src="logo.png" alt="Logo" class="top-logo">
+  <div class="content">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+/* Top Logo Styles */
+.top-logo {
+  position: fixed;
+  top: 18px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  max-width: 60px;
+  max-height: 60px;
+  object-fit: contain;
+  z-index: 100;
+  background: none;
+  box-shadow: none;
+  border-radius: 8px;
+  border: 2px solid #20456d;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.top-logo:hover {
+  transform: scale(1.12);
+  box-shadow: 0 2px 8px rgba(44,62,80,0.18);
+}
+/* Sidebar Styles Moved from index.html */
+.sidebar {
+  width: 280px;
+  background: linear-gradient(180deg, #232526 0%, #414345 100%);
+  color: #f8fafc;
+  overflow-y: auto;
+  padding: 1rem;
+}
+.sidebar h2, .sidebar h5 {
+  color: #160606;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+.sidebar a {
+  color: #e3e8ee;
+  text-decoration: none;
+  display: block;
+  padding: 8px 10px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+  font-weight: 700;
+}
+.sidebar a:hover, .sidebar a.active {
+  background: #3a5068;
+  color: #fff;
+}
+.sidebar .accordion-button {
+  background: #a8c8f1;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  box-shadow: none;
+  border: none;
+}
+.sidebar .accordion-button:not(.collapsed) {
+  background: #3a5068;
+  color: #fff;
+}
+.sidebar .accordion-body ul li a {
+  color: #e3e8ee;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 6px 0;
+  transition: color 0.2s;
+}
+.sidebar .accordion-body ul li a:hover {
+  color: #fff;
+}
+/* Content Area */
+.content {
+  flex: 1;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  overflow-y: auto;
+  background: linear-gradient(180deg, #ecf0f1 0%, #f7fafc 100%);
+  min-height: 100vh;
+}
+.content h1 {
+  color: #1a237e;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+.content h3 {
+  color: #20456d;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+.content h5 {
+  color: #3a5068;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.content p {
+  color: #4a4a4a;
+  font-size: 1.08rem;
+  margin-bottom: 0.7rem;
+}
+
+/* Intent Card Grid */
+.intent-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  width: 100%;
+  max-width: 1100px;
+  margin-bottom: 2.5rem;
+}
+.intent-grid > div {
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Intent Card Styles */
+.intent-card {
+  max-width: 340px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.10);
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 18px 16px;
+  min-height: 120px;
+  transition: box-shadow 0.2s, transform 0.2s;
+  font-size: 1.08rem;
+  color: #20456d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intent-card:hover {
+  box-shadow: 0 4px 18px rgba(44,62,80,0.18);
+  transform: translateY(-3px) scale(1.03);
+}
+:root{
+  --sidebar-width: 320px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.app-shell{
+  display: grid;
+  grid-template-columns: var(--sidebar-width) fr;
+  height: 100vh;
+}
+
+.sidebar{
+  background: #6391c5;
+  color: #e8eef6;
+  overflow-y: auto;
+}
+
+.sidebar a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.accordion-button{
+  background: transparent !important;
+  color: #010a16 !important;
+}
+
+.accordion-item{
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: .5rem;
+  margin-bottom: .5rem;
+}
+
+.accordion-body{
+  background: rgba(255,255,255,0.04);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.horizontal-link{
+  display: block;
+  padding: .25rem .5rem;
+  border-radius: .375rem;
+}
+.horizontal-link:hover,
+.horizontal-link.active{
+  background: rgba(74, 62, 235, 0.15);
+}
+
+.main{
+  background: #f5f7fb;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.topbar{
+  background: #fff;
+  height: 84px;
+}
+
+.content{
+  overflow: auto;
+  height: calc(100vh - 84px);
+}
+
+.section-title{
+  scroll-margin-top: 92px; /* room for topbar when anchoring */
+}
+
+.intent-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+}
+
+.intent-grid > div {
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.intent-card {
+  max-width: 340px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+.intent-card{
+  background: #fff;
+  border: 1px solid #e9eef5;
+  border-radius: .75rem;
+  padding: .75rem .9rem;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+}
+
+.badge-pill{
+  border-radius: 999px;
+}
+
+.search-wrap{
+  width: 340px;
+}
+
+.muted{
+  color: #6b7280;
+  font-size: 0.9rem;
+}

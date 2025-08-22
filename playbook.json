@@ -1,0 +1,1219 @@
+[
+  {
+    "vertical": "Education",
+    "id": "education",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "education-lead-generation-qualification",
+        "intents": [
+          "['Connect students with tutors and onboard new tutors'",
+          "'collect student leads for a course'",
+          "'enroll users in trading strategies course'",
+          "'Assist potential students in exploring educational offerings and facilitate admission processes'",
+          "'assist students in selecting and enrolling in international medical universities'",
+          "'enroll students in educational courses'",
+          "'Assist students in studying abroad by collecting their academic and personal preferences'",
+          "'Guide users to select and inquire about professional training services'",
+          "'collect student leads for various educational courses'",
+          "'Collect information from prospective students interested in various courses'",
+          "'Provide information and assistance for course selection and enrollment'",
+          "'Provide information and facilitate enrollment in digital marketing courses'",
+          "'provide information on educational services and capture interest for follow-up'",
+          "'enroll students in an English language course'",
+          "'collect student leads for educational programs'",
+          "'assist users in exploring educational opportunities abroad and domestically",
+          "including language training programs'",
+          "'Collect information from prospective students for course enrollment'",
+          "'collect student leads'",
+          "'collect potential student information for course enrollment'",
+          "'collect student leads for educational programs'",
+          "'collect student leads for educational programs'",
+          "'Assist users in finding educational services and programs in Germany'",
+          "'Enroll students in trading classes'",
+          "'collect information on educational courses and arrange a call for interested students'",
+          "'Collect information from prospective students for course enrollment'",
+          "'Collect information from prospective students for course enrollment'",
+          "'Collect information from prospective students for course enrollment'",
+          "'collect student leads for professional courses'",
+          "'collect student leads'",
+          "'Engage users to explore and select training",
+          "recruitment",
+          "and franchise services'",
+          "'Facilitate various training",
+          "recruitment",
+          "and franchise services'",
+          "'Provide educational courses and enrollment options in safety management'",
+          "'provide information and assistance for admissions'",
+          "'Enroll students in a trading mentorship program'",
+          "'Collect information from potential students for language courses and study abroad services'",
+          "'assist users in finding suitable educational programs and provide career guidance'",
+          "'Enroll students in coaching programs for entrance exams'",
+          "'collect student learning preferences'",
+          "'Collect potential client information for immigration services'",
+          "'Provide training and coaching for various courses and assist with study abroad programs and job placements'",
+          "'collect student leads for educational services'",
+          "'Register and qualify leads for an educational expo'",
+          "'collect student leads for overseas education programs'",
+          "'collect student leads for studying abroad'",
+          "'Collect information for course enrollment'",
+          "'recruit FMCG distributors'",
+          "'Provide information and facilitate admissions and scholarships for paramedical courses'",
+          "'Provide information and assistance for course enrollment'",
+          "'Provide course information and book free demos for prospective students'",
+          "'Provide research statement review services and engage researchers with additional support'",
+          "'Enroll users in a digital marketing course and collect payment'",
+          "'collect student leads'",
+          "'qualify and collect potential student leads for study programs'",
+          "'Promote and facilitate enrollment in STEM education courses and products'",
+          "'Provide educational and travel consultation services'",
+          "\"collect information on prospective students' exam preparation needs\"",
+          "'Enroll students in digital marketing courses'",
+          "'collect potential student information for course enrollment'",
+          "'enroll students in a new batch of English course'",
+          "'Provide information and contact options to potential students'",
+          "'enroll students in educational courses'",
+          "'Enroll students in language proficiency courses'",
+          "'Assist users in exploring educational opportunities and services'",
+          "'collect student leads for executive education courses'",
+          "'Provide information and assist with course selection for professional accounting and data analytics courses']"
+        ]
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "education-customer-support-service-requests",
+        "intents": [
+          "['Provide information on educational services'",
+          "'Provide information and support for educational services']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "education-marketing-promotions",
+        "intents": [
+          "['Promote and provide information about online psychology courses'",
+          "'Promote and secure enrollments for an English learning course'",
+          "'Promote and enroll users in trading education programs'",
+          "'Promote investment opportunities and referral program'",
+          "'Provide course curriculum information'",
+          "'Empower individuals to monetize their skills/passions through social media and entrepreneurship'",
+          "'Promote educational courses and facilitate course enrollment'",
+          "'Engage conference attendees in a promotional contest'",
+          "'Provide information on educational services and study abroad options'",
+          "'Promote training course offers and facilitate contact']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "education-appointment-booking-management",
+        "intents": [
+          "['Schedule a meeting and provide additional information if needed']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "education-payments-transactions",
+        "intents": [
+          "['sell a digital product (CANVA PRO) and collect payment'",
+          "'Direct users to a product purchase link']"
+        ]
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "education-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "education-onboarding-registration",
+        "intents": [
+          "['Provide information and facilitate admission to a private school'",
+          "'Provide information and facilitate account opening for a trading platform'",
+          "'Register participants for an empowerment event'",
+          "'Enroll professionals into different business communities and programs'",
+          "'Provide information and facilitate online applications for an educational institution']"
+        ]
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "education-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "education-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Travel and Transportation",
+    "id": "travel-and-transportation",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "travel-and-transportation-lead-generation-qualification",
+        "intents": [
+          "['collect travel package inquiries'",
+          "'Assist users in selecting a travel destination and duration",
+          "and collect travel date information'",
+          "'Assist users in planning their travel'",
+          "'collect travel planning information'",
+          "'Assist users in selecting and inquiring about travel services']"
+        ]
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "travel-and-transportation-customer-support-service-requests",
+        "intents": [
+          "['Assist travelers with accommodation",
+          "transportation",
+          "activities",
+          "and local guidance in Varkala']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "travel-and-transportation-marketing-promotions",
+        "intents": [
+          "['promote vacation packages'",
+          "'Promote and facilitate the booking of travel packages']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "travel-and-transportation-appointment-booking-management",
+        "intents": [
+          "['Book transportation services'",
+          "'Assist users in selecting a travel destination and initiate the booking process'",
+          "'Book holiday packages'",
+          "'Book houseboat accommodations'",
+          "'Assist users in booking travel and accommodation services'",
+          "'Provide holiday package options and facilitate booking'",
+          "'Book houseboat cruises and additional services'",
+          "'Provide customized tour packages and bookings'",
+          "'Book taxi services for various travel needs'",
+          "'Book taxi services for various travel needs'",
+          "'Assist users in planning and booking travel arrangements'",
+          "'Assist users in planning and booking Hajj and Umrah services'",
+          "'Assist users in reserving tickets for travel'",
+          "'Plan and customize travel packages for clients'",
+          "'Plan and customize travel packages'",
+          "'Plan and book customized travel packages']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "travel-and-transportation-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "travel-and-transportation-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "travel-and-transportation-onboarding-registration",
+        "intents": []
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "travel-and-transportation-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "travel-and-transportation-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Medical and Health",
+    "id": "medical-and-health",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "medical-and-health-lead-generation-qualification",
+        "intents": [
+          "['collect potential client information for a fitness program'",
+          "'Create personalized health and wellness plans']"
+        ]
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "medical-and-health-customer-support-service-requests",
+        "intents": [
+          "['Provide hospital services information and assistance'",
+          "'Provide information and direct users to sales",
+          "services",
+          "or job inquiries']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "medical-and-health-marketing-promotions",
+        "intents": []
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "medical-and-health-appointment-booking-management",
+        "intents": [
+          "['Provide information on eye care services and facilitate appointments'",
+          "'Book medical appointments'",
+          "'Book medical appointments and provide information about treatments'",
+          "'book medical consultations'",
+          "'Provide contact information for appointment booking or queries'",
+          "'book medical appointments'",
+          "'Book health diagnostic services and collect feedback'",
+          "'Manage health screening appointments and queries'",
+          "'Assist users in selecting and learning about various clinic treatments",
+          "booking consultations",
+          "and handling complaints'",
+          "'Schedule hearing consultations and provide information on hearing aids']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "medical-and-health-payments-transactions",
+        "intents": [
+          "['Place orders for medical products and prescriptions']"
+        ]
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "medical-and-health-feedback-surveys",
+        "intents": [
+          "['Collect customer feedback on services']"
+        ]
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "medical-and-health-onboarding-registration",
+        "intents": [
+          "['Assist with event registration and related inquiries'",
+          "'Register participants for the World Ayurveda Congress and Arogya Expo']"
+        ]
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "medical-and-health-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "medical-and-health-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Professional Services",
+    "id": "professional-services",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "professional-services-lead-generation-qualification",
+        "intents": [
+          "['Provide information and collect leads for advertising and marketing services'",
+          "'Assist users in immigration",
+          "studying abroad",
+          "and obtaining work permits'",
+          "'grow a community for restaurant and cafe owners'",
+          "'collect student leads for courses'",
+          "'Engage potential clients in selecting digital marketing and development services and schedule a consultation or provide a proposal'",
+          "'Assist users in product inquiries",
+          "booking demos",
+          "requesting prices",
+          "and applying for jobs'",
+          "'Provide resume and cover letter writing services'",
+          "'collect location-based leads'",
+          "'Assist users in finding job opportunities'",
+          "'Qualify and collect potential leads for WhatsApp automation services'",
+          "'Assist healthcare professionals with job placement and licensing in the Middle East'",
+          "'Promote digital marketing services and collect potential client information'",
+          "'Facilitate job vacancy posting and candidate registration for employment'",
+          "'Provide design consultation and pricing information for residential and commercial projects'",
+          "'collect business inquiries for corporate gifts'",
+          "'collect contact information'",
+          "'collect potential client requirements and contact information for service offerings'",
+          "'collect user information through a form'",
+          "'Provide dog training information and enroll clients into a training program'",
+          "'Provide product selection and service request options'",
+          "'Assist users in applying for work or visit visas'",
+          "'Capture potential client information for follow-up on IT/ITES services'",
+          "'Provide information and contact details for various business services'",
+          "'Provide information on services and collect potential customer details']"
+        ]
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "professional-services-customer-support-service-requests",
+        "intents": [
+          "['Provide information and support for services",
+          "collect customer details for follow-up'",
+          "'Provide information on water treatment services'",
+          "'Support users in their self-discovery journey by providing curated resources and capturing feedback'",
+          "'Collect customer queries and store them in a spreadsheet'",
+          "'Provide various business solutions including CUG connections",
+          "location tracking",
+          "fancy numbers",
+          "and WhatsApp API integration']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "professional-services-marketing-promotions",
+        "intents": [
+          "['Promote digital marketing course enrollment'",
+          "'Showcase services for potential engagement'",
+          "'Provide information on company services and courses'",
+          "'Promote and facilitate the registration for virtual office spaces and business registration services'",
+          "'Promote event participation by revealing attendees']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "professional-services-appointment-booking-management",
+        "intents": [
+          "['Book pest control services'",
+          "'Manage and schedule appointments'",
+          "'Assist users in planning and organizing events'",
+          "'Book resort stays and tour packages']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "professional-services-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "professional-services-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "professional-services-onboarding-registration",
+        "intents": [
+          "['register for a ChatGPT-related course'",
+          "'Matchmaking service registration'",
+          "'Register users for a ChatGPT-related course']"
+        ]
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "professional-services-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "professional-services-internal-operations-hr",
+        "intents": [
+          "['Screen candidates for job openings']"
+        ]
+      }
+    ]
+  },
+  {
+    "vertical": "Clothing and Apparel",
+    "id": "clothing-and-apparel",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "clothing-and-apparel-lead-generation-qualification",
+        "intents": [
+          "['Provide business partnership opportunities",
+          "customer service",
+          "and job application options'",
+          "'Customize and order T-Shirts']"
+        ]
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "clothing-and-apparel-customer-support-service-requests",
+        "intents": [
+          "['Provide information and support for a clothing store']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "clothing-and-apparel-marketing-promotions",
+        "intents": [
+          "['Promote and sell handloom and power loom clothing with a buy one get one free offer']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "clothing-and-apparel-appointment-booking-management",
+        "intents": []
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "clothing-and-apparel-payments-transactions",
+        "intents": [
+          "['Sell special shoes and collect order details']"
+        ]
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "clothing-and-apparel-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "clothing-and-apparel-onboarding-registration",
+        "intents": [
+          "['register for a ChatGPT workshop']"
+        ]
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "clothing-and-apparel-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "clothing-and-apparel-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Hotel and Lodging",
+    "id": "hotel-and-lodging",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "hotel-and-lodging-lead-generation-qualification",
+        "intents": []
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "hotel-and-lodging-customer-support-service-requests",
+        "intents": [
+          "['Assist users with travel plans by exploring hotel options or contacting support'",
+          "'Provide information and services for resort guests'",
+          "'Provide information and assistance for accommodation booking']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "hotel-and-lodging-marketing-promotions",
+        "intents": []
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "hotel-and-lodging-appointment-booking-management",
+        "intents": [
+          "['Book accommodation or meeting spaces'",
+          "'Explore and book hotel rooms'",
+          "'Assist users with booking rooms and villas at a resort']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "hotel-and-lodging-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "hotel-and-lodging-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "hotel-and-lodging-onboarding-registration",
+        "intents": []
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "hotel-and-lodging-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "hotel-and-lodging-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Food and Grocery",
+    "id": "food-and-grocery",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "food-and-grocery-lead-generation-qualification",
+        "intents": []
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "food-and-grocery-customer-support-service-requests",
+        "intents": [
+          "['Process refunds for undelivered Christmas cakes'",
+          "'process instant refunds for undelivered Christmas cakes'",
+          "'Resolve delivery issues and process refunds for Christmas cake orders'",
+          "'Assist users in shopping",
+          "order tracking",
+          "returns",
+          "accessing promotions",
+          "subscriptions",
+          "providing feedback",
+          "and offering help with various services'",
+          "'Provide information and support for products and order status']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "food-and-grocery-marketing-promotions",
+        "intents": [
+          "['Provide information and facilitate the purchase of stevia products'",
+          "'Promote company offerings and encourage app downloads'",
+          "'Guide users to explore products and assist with inquiries'",
+          "'Promote app download and online shopping for ethnic wear']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "food-and-grocery-appointment-booking-management",
+        "intents": []
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "food-and-grocery-payments-transactions",
+        "intents": [
+          "['Facilitate food ordering and delivery'",
+          "'facilitate food ordering process']"
+        ]
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "food-and-grocery-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "food-and-grocery-onboarding-registration",
+        "intents": []
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "food-and-grocery-notifications-alerts",
+        "intents": [
+          "['Inform customers about service downtime']"
+        ]
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "food-and-grocery-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Automotive",
+    "id": "automotive",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "automotive-lead-generation-qualification",
+        "intents": []
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "automotive-customer-support-service-requests",
+        "intents": [
+          "['provide options for sales or service support'",
+          "'Provide information and facilitate contact for vehicle customization services']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "automotive-marketing-promotions",
+        "intents": [
+          "['Showcase and sell car care products']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "automotive-appointment-booking-management",
+        "intents": [
+          "['Car rental booking and information provision']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "automotive-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "automotive-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "automotive-onboarding-registration",
+        "intents": []
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "automotive-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "automotive-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Finance and Banking",
+    "id": "finance-and-banking",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "finance-and-banking-lead-generation-qualification",
+        "intents": [
+          "['Provide car loan options and collect customer details for loan processing'",
+          "'qualify leads for loan products'",
+          "'sell insurance products'",
+          "'Provide insurance plan options and capture customer information for vehicle and health insurance'",
+          "'assist users in applying for various types of loans'",
+          "'Provide various types of loans and collect necessary documentation from customers'",
+          "'qualify and collect detailed information for loan application']"
+        ]
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "finance-and-banking-customer-support-service-requests",
+        "intents": [
+          "['provide information and support for chit fund schemes'",
+          "'Provide financial services information and assistance for existing and potential customers'",
+          "'Collect and manage customer and vendor/distributor inquiries for assistance with ATM services']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "finance-and-banking-marketing-promotions",
+        "intents": []
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "finance-and-banking-appointment-booking-management",
+        "intents": []
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "finance-and-banking-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "finance-and-banking-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "finance-and-banking-onboarding-registration",
+        "intents": [
+          "['Onboard new agents'",
+          "'Register new customers for currency exchange services']"
+        ]
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "finance-and-banking-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "finance-and-banking-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Shopping and Retail Services",
+    "id": "shopping-and-retail-services",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "shopping-and-retail-services-lead-generation-qualification",
+        "intents": [
+          "['assist customers in selecting and purchasing mattresses and accessories'",
+          "'Assist users in exploring products and initiate purchase process'",
+          "'Collect product inquiry details and ensure follow-up'",
+          "'assist customers in selecting jewelry for specific occasions and facilitate shop visits']"
+        ]
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "shopping-and-retail-services-customer-support-service-requests",
+        "intents": [
+          "['provide contact information for enquiries or complaints and store locations'",
+          "'Product selection assistance'",
+          "'Provide information and assistance to jewelry customers'",
+          "'Assist customers in selecting and inquiring about mobile and laptop accessory products'",
+          "'Provide product information",
+          "dealer locations",
+          "and support for construction materials'",
+          "'Assist customers with product browsing",
+          "customization",
+          "order tracking",
+          "and scheduling consultations']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "shopping-and-retail-services-marketing-promotions",
+        "intents": [
+          "['Provide contact information and social media engagement'",
+          "'Promote and sell security and IT products and services'",
+          "'Promote and provide information on UR FURNACE for waste management'",
+          "'Engage customers with offers",
+          "product inquiries",
+          "and store information",
+          "and facilitate online shopping and complaint registration'",
+          "'Promote and facilitate the purchase of a weight loss product'",
+          "'Promote WhatsApp group for offers and facilitate home delivery orders'",
+          "'Promote anniversary offers and discounts for a mobile store'",
+          "'Showcase jewelry collections and assist with store locations'",
+          "'Showcase and facilitate the ordering of home furnishing products'",
+          "'Provide information and estimates for home furnishing products']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "shopping-and-retail-services-appointment-booking-management",
+        "intents": [
+          "['book appointments for plywood solutions']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "shopping-and-retail-services-payments-transactions",
+        "intents": [
+          "['Process orders for custom clocks with photo personalization'",
+          "'sell halwa and collect order details']"
+        ]
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "shopping-and-retail-services-feedback-surveys",
+        "intents": [
+          "['collect customer feedback and direct to review platform']"
+        ]
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "shopping-and-retail-services-onboarding-registration",
+        "intents": []
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "shopping-and-retail-services-notifications-alerts",
+        "intents": [
+          "['Provide alternate contact information when unavailable']"
+        ]
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "shopping-and-retail-services-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Restaurant",
+    "id": "restaurant",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "restaurant-lead-generation-qualification",
+        "intents": []
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "restaurant-customer-support-service-requests",
+        "intents": [
+          "['Provide restaurant information and customer care support'",
+          "'Book a free home delivery service']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "restaurant-marketing-promotions",
+        "intents": []
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "restaurant-appointment-booking-management",
+        "intents": [
+          "['Book restaurant tables'",
+          "'Assist with restaurant services including table and space booking and collecting feedback']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "restaurant-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "restaurant-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "restaurant-onboarding-registration",
+        "intents": []
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "restaurant-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "restaurant-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Entertainment",
+    "id": "entertainment",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "entertainment-lead-generation-qualification",
+        "intents": []
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "entertainment-customer-support-service-requests",
+        "intents": []
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "entertainment-marketing-promotions",
+        "intents": [
+          "['Create personalized songs and announcements for various occasions and facilitate their purchase']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "entertainment-appointment-booking-management",
+        "intents": []
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "entertainment-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "entertainment-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "entertainment-onboarding-registration",
+        "intents": []
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "entertainment-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "entertainment-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Event Planning and Service",
+    "id": "event-planning-and-service",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "event-planning-and-service-lead-generation-qualification",
+        "intents": [
+          "['Assist users in planning events",
+          "registering as investors",
+          "or applying for a job'",
+          "'Connect customers with wedding planning services and register wedding vendors'",
+          "'Provide contact information for quotes and enquiries']"
+        ]
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "event-planning-and-service-customer-support-service-requests",
+        "intents": []
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "event-planning-and-service-marketing-promotions",
+        "intents": []
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "event-planning-and-service-appointment-booking-management",
+        "intents": [
+          "['book wedding photography services'",
+          "'Plan and organize events for clients']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "event-planning-and-service-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "event-planning-and-service-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "event-planning-and-service-onboarding-registration",
+        "intents": []
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "event-planning-and-service-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "event-planning-and-service-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Beauty, Spa and Salon",
+    "id": "beauty-spa-and-salon",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "beauty-spa-and-salon-lead-generation-qualification",
+        "intents": []
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "beauty-spa-and-salon-customer-support-service-requests",
+        "intents": []
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "beauty-spa-and-salon-marketing-promotions",
+        "intents": [
+          "['provide information on salon services and prices and encourage appointment booking for special offers']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "beauty-spa-and-salon-appointment-booking-management",
+        "intents": [
+          "['Book salon appointments and provide service information'",
+          "'Provide beauty and personal care services information and facilitate appointment booking']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "beauty-spa-and-salon-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "beauty-spa-and-salon-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "beauty-spa-and-salon-onboarding-registration",
+        "intents": []
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "beauty-spa-and-salon-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "beauty-spa-and-salon-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  },
+  {
+    "vertical": "Other",
+    "id": "other",
+    "horizontals": [
+      {
+        "name": "Lead Generation & Qualification",
+        "id": "other-lead-generation-qualification",
+        "intents": [
+          "['Assist potential buyers in finding and booking site visits for real estate properties'",
+          "'collect potential customer preferences for jewelry'",
+          "'Assist users in selecting and customizing interior design services'",
+          "'Customize and order promotional products'",
+          "'Provide information and connect with sales for services like ERP software",
+          "website development",
+          "and digital marketing'",
+          "'Identify potential clients for digital marketing and revenue management services'",
+          "'Collect information from potential real estate buyers'",
+          "'Provide astrological consultation and perform related rituals'",
+          "'Assess financial health and recommend investment plans'",
+          "'Provide information and contact options for business inquiries'",
+          "'Provide product details and pricing for bulk orders of muffin cups and related products",
+          "and facilitate direct contact for further discussion or purchase'",
+          "'Provide insurance information and collect user details for insurance recommendations'",
+          "'Assist users in planning",
+          "designing",
+          "and executing construction and renovation projects'",
+          "'Promote solar installation services and capture potential customer interest'",
+          "'Pre-qualify leads for financial services'",
+          "'Assist users in migration services by collecting their personal and eligibility details'",
+          "'Facilitate the purchase of construction materials'",
+          "'Assist users in selecting and inquiring about real estate properties'",
+          "'engage potential clients for jewelry campaign production services'",
+          "'Provide logistics services and generate quotes for potential customers'",
+          "'Showcase real estate projects and facilitate inquiries'",
+          "'Identify user interest in sales or support'",
+          "'Connect individuals with life coaches or onboard new life coaches'",
+          "'present company services and collect user information'",
+          "'Capture product inquiries and customer details for follow-up'",
+          "'sell religious or spiritual rings and collect payment'",
+          "'Collect potential customer information for real estate properties'",
+          "'collect potential student information for follow-up'",
+          "'Provide information and callback for solar energy solutions'",
+          "'Generate leads for solar services'",
+          "'sell cash counting and electronic weighing machines'",
+          "'Real estate services including buying",
+          "selling",
+          "renting properties",
+          "interior decoration",
+          "and housing loans'",
+          "'Provide personalized astrological services and predictions'",
+          "'Offer SEO services and internships to potential clients and candidates']"
+        ]
+      },
+      {
+        "name": "Customer Support & Service Requests",
+        "id": "other-customer-support-service-requests",
+        "intents": [
+          "['Provide a range of personal and business services including typing",
+          "document handling",
+          "business setup",
+          "translation",
+          "legal and tax services",
+          "real estate",
+          "franchise opportunities",
+          "career training",
+          "and travel visa services'",
+          "'Provide information and assistance for services and products offered by a technology company'",
+          "'Assist users in selecting pet-related services and products'",
+          "'provide contact information for queries'",
+          "'Assist customers with cake selection",
+          "customization",
+          "and provide company information'",
+          "'Assist customers with product browsing",
+          "store information",
+          "and customer support'",
+          "'Assist with product inquiries and job applications",
+          "and provide contact information'",
+          "'Assist users in selecting and inquiring about hotel",
+          "houseboat",
+          "and vehicle services'",
+          "'Assist customers with air conditioning services",
+          "maintenance",
+          "and product selection'",
+          "'Assist users in selecting and managing insurance policies'",
+          "'assist with logistics inquiries and connect to support'",
+          "'Provide information on products and direct users for service inquiries'",
+          "'Assist customers in browsing and purchasing refurbished products'",
+          "'assist customers in contacting the store and provide location information'",
+          "'Handle service requests for products like repairing",
+          "installation",
+          "and maintenance']"
+        ]
+      },
+      {
+        "name": "Marketing & Promotions",
+        "id": "other-marketing-promotions",
+        "intents": [
+          "['Showcase construction services and projects to potential clients'",
+          "'promote telecommunications solutions'",
+          "'Promote and facilitate the selection and purchase of refurbished computer products'",
+          "'Showcase product catalogue and provide additional resources'",
+          "'Provide resources for personal growth and emotional well-being'",
+          "'Promote skincare products and offer discounts'",
+          "'Showcase and promote residential villas and their amenities for potential buyers'",
+          "'promote health and term insurance plans'",
+          "'Promote event and sell tickets'",
+          "'Promote Onam festival offers and collect customer interest in camera packages'",
+          "'promote chess classes and collect potential student details'",
+          "'Promote and provide expert consultations for natural skin and hair care products'",
+          "'Showcase and provide information on various products for potential purchase'",
+          "'Promote and process orders for herbal products']"
+        ]
+      },
+      {
+        "name": "Appointment & Booking Management",
+        "id": "other-appointment-booking-management",
+        "intents": [
+          "['Book healthcare-related appointments and collect patient information'",
+          "'book fitness classes'",
+          "'Book sailing experiences and yachts'",
+          "'Schedule astrology consultations'",
+          "'Provide tattoo services",
+          "tattoo education",
+          "and book appointments for both services and courses'",
+          "'Provide cleaning services and handle related customer interactions']"
+        ]
+      },
+      {
+        "name": "Payments & Transactions",
+        "id": "other-payments-transactions",
+        "intents": []
+      },
+      {
+        "name": "Feedback & Surveys",
+        "id": "other-feedback-surveys",
+        "intents": []
+      },
+      {
+        "name": "Onboarding & Registration",
+        "id": "other-onboarding-registration",
+        "intents": [
+          "['enroll students in AURA BOXING martial arts training camps'",
+          "'Register users for matrimonial services'",
+          "'matchmaking and matrimonial service registration'",
+          "'collect matrimonial profile information'",
+          "'Collect job applicant details for recruitment purposes'",
+          "'Open a trading account with Master Stock'",
+          "'Register product warranty'",
+          "'Assist users in selecting and applying for the appropriate visa']"
+        ]
+      },
+      {
+        "name": "Notifications & Alerts",
+        "id": "other-notifications-alerts",
+        "intents": []
+      },
+      {
+        "name": "Internal Operations & HR",
+        "id": "other-internal-operations-hr",
+        "intents": []
+      }
+    ]
+  }
+]
