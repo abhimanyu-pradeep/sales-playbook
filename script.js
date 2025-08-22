@@ -26,7 +26,7 @@ function buildSidebar(playbook) {
                 data-bs-target="#collapse-${verticalId}"
                 aria-expanded="false"
                 aria-controls="collapse-${verticalId}">
-          <a href="#${verticalId}" class="stretched-link text-decoration-none text-dark">
+          <a href="#${verticalId}" >
             ${vertical.vertical}
           </a>
         </button>
@@ -37,7 +37,7 @@ function buildSidebar(playbook) {
         <div class="accordion-body">
           <ul class="list-unstyled">
             ${vertical.horizontals.map((h, hIndex) =>
-              `<li><a href="#${verticalId}-${hIndex}" class="text-decoration-none d-block py-1">${h.name}</a></li>`
+              `<div class = "list-item-div"><li><a href="#${verticalId}-${hIndex}" class="text-decoration-none d-block py-1">${h.name}</a> </li></div>`
             ).join("")}
           </ul>
         </div>
@@ -69,6 +69,7 @@ function buildContent(playbook) {
           .replace(/^\[+|\]+$/g, '') // Remove leading/trailing brackets
           .replace(/['"\[\]]/g, '') // Remove quotes and brackets
           .trim();
+        cleanIntent = cleanIntent.charAt(0).toUpperCase() + cleanIntent.slice(1); // Capitalize first letter
         gridHTML += `
           <div>
             <div class="card intent-card h-100" style="min-height:120px;">
